@@ -1,0 +1,29 @@
+20:28:31,990 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 13) WFLYNAM0001: Activating Naming Subsystem
+20:28:31,992 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 11) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+20:28:31,993 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 16) WFLYSEC0002: Activating Security Subsystem
+20:28:32,000 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+20:28:32,003 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 10) WFLYUT0003: Undertow 1.3.15.Final starting
+20:28:32,004 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.3.15.Final starting
+20:28:32,011 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+20:28:32,045 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+20:28:32,055 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+20:28:32,080 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+20:28:32,223 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 2.0.10.Final "Kenny" started in 996ms - Started 72 of 84 services (14 services are lazy, passive or on-demand)
+20:28:32,267 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on [0:0:0:0:0:0:0:0]:8080
+20:28:32,278 INFO  [org.wildfly.swarm.runtime.deployer] (main) deploying 46a4f8ab-6a4f-4228-8e37-a3518a3966f2.war
+20:28:32,319 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "46a4f8ab-6a4f-4228-8e37-a3518a3966f2.war" (runtime-name: "46a4f8ab-6a4f-4228-8e37-a3518a3966f2.war")
+20:28:32,494 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+20:28:32,594 INFO  [org.wildfly.swarm.topology.consul.runtime.Advertiser] (MSC service thread 1-1) Registered service restExampleService:0:0:0:0:0:0:0:0:8080
+20:28:32,616 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 7) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.wildfly.swarm.generated.WildFlySwarmDefaultJAXRSApplication
+20:28:32,637 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 7) WFLYUT0021: Registered web context: /
+20:28:32,661 INFO  [org.jboss.as.server] (main) WFLYSRV0010: Deployed "46a4f8ab-6a4f-4228-8e37-a3518a3966f2.war" (runtime-name : "46a4f8ab-6a4f-4228-8e37-a3518a3966f2.war")
+20:28:50,176 INFO  [org.jboss.as.server] (Thread-4) WFLYSRV0220: Server shutdown has been requested.
+20:28:50,182 INFO  [org.wildfly.swarm.topology.consul.runtime.Advertiser] (MSC service thread 1-2) Deregister service restExampleService:0:0:0:0:0:0:0:0:8080
+20:28:50,184 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+20:28:50,184 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to [0:0:0:0:0:0:0:0]:8080
+20:28:50,186 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 5) WFLYUT0022: Unregistered web context: /
+20:28:50,188 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+20:28:50,189 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 1.3.15.Final stopping
+20:28:50,199 INFO  [stdout] (MSC service thread 1-2) >>
+20:28:50,200 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment 46a4f8ab-6a4f-4228-8e37-a3518a3966f2.war (runtime-name: 46a4f8ab-6a4f-4228-8e37-a3518a3966f2.war) in 19ms
+20:28:50,203 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 2.0.10.Final "Kenny" stopped in 16ms
